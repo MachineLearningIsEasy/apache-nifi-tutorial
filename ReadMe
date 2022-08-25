@@ -1,0 +1,9 @@
+1. brew install nifi
+2. nifi run
+3. cd /usr/local/Cellar/nifi/1.17.0/libexec/logs
+4. 
+grep 'Generated Username' nifi-app.log
+  username: ...
+grep 'Generated Password' nifi-app.log
+  pasword: ...
+5. https://localhost:8443/nifi/
